@@ -1,0 +1,9 @@
+theme: jekyll-theme-cayman
+#theme: jekyll-theme-midnight
+#theme: jekyll-theme-slate
+#theme: jekyll-theme-minimal
+
+title: GPU移行ポータルサイト
+
+github:
+  is_project_page: False
