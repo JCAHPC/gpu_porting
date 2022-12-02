@@ -53,11 +53,11 @@ GPU計算の概要、NVIDIA GPU への移植方法についての比較は、下
 
 特定のアルゴリズムについては、GPU向け（CUDA）ライブラリが存在しています。既存のCPU向けライブラリをGPU向けライブラリに入れ替えると、その部分のみですが、GPUで高速に計算されます。GPU向けライブラリとしては、下記のようなものがあります。OpenACCやCUDAとの併用は可能で、ライブラリで対応できない部分は、OpenACC などでGPU化する必要があります。
 
-- cuFFT：フーリエ変換
-- cuBLAS：行列演算（密行列）
-- cuSPARSE：行列演算（疎行列）
-- cuRAND：乱数生成
-- Thrust：C++テンプレートライブラリ（STLベース）
+- [cuFFT](https://docs.nvidia.com/cuda/cufft/index.html)：フーリエ変換
+- [cuBLAS](https://docs.nvidia.com/cuda/cublas/index.html)：行列演算（密行列）
+- [cuSPARSE](https://docs.nvidia.com/cuda/cusparse/index.html)：行列演算（疎行列）
+- [cuRAND](https://docs.nvidia.com/cuda/curand/index.html)：乱数生成
+- [Thrust](https://docs.nvidia.com/cuda/thrust/index.html)：C++テンプレートライブラリ（STLベース）
 
 ### 既存のCPUコードにOpenACC指示文（ディレクティブ）を挿入する
 
