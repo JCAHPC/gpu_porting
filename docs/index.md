@@ -90,7 +90,7 @@ CUDAはNVIDIA GPU向けの開発環境および言語であり、C++言語を拡
 
 | 実装例 | 元の言語 | OpenACC | OpenMP | 標準言語の並列処理 | CUDA |
 | :----: | :----: | :----: | :----: | :----: | :----: |
-| [$N$体計算](https://github.com/ymiki-repo/nbody) | C++ | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ |
+| [N体計算](https://github.com/ymiki-repo/nbody) | C++ | OK | OK | OK | OK |
 
 # GPU移行実践
 
