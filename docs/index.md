@@ -132,4 +132,4 @@ GPU移行相談会の開催日と相談できるチューターの参加予定�
 
 相談会に参加を希望される方は、下記の参加申込フォームへ必要項目を入力してお申し込みください。
 
-- [GPU移行相談会 参加申込フォーム](https://regist.cc.u-tokyo.ac.jp/entry/form.html)
+- [GPU移行相談会 参加申込フォーム](https://regist.cc.u-tokyo.ac.jp/entry10/form.html)
