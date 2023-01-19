@@ -77,7 +77,14 @@ OpenMP指示文（ディレクティブ）は、主に共有メモリ型マル�
 
 詳細は下記の参考資料を参照ください。
 
-- [Developing HPC Applications with Standard C++, Fortran, and Python](https://www.nvidia.com/en-us/on-demand/session/gtcfall22-a41087/)
+- [Developing HPC Applications with Standard C++, Fortran, and Python (NVIDIA On-Demand)](https://www.nvidia.com/en-us/on-demand/session/gtcfall22-a41087/)
+- [Developing Accelerated Code with Standard Language Parallelism (NVIDIA Technical Blog)](https://developer.nvidia.com/blog/developing-accelerated-code-with-standard-language-parallelism/)
+- [Multi-GPU Programming with Standard Parallel C++, Part 1 (NVIDIA Technical Blog)](https://developer.nvidia.com/blog/multi-gpu-programming-with-standard-parallel-c-part-1/)
+- [Multi-GPU Programming with Standard Parallel C++, Part 2 (NVIDIA Technical Blog)](https://developer.nvidia.com/blog/multi-gpu-programming-with-standard-parallel-c-part-2/)
+- [Using Fortran Standard Parallel Programming for GPU Acceleration (NVIDIA Technical Blog)](https://developer.nvidia.com/blog/using-fortran-standard-parallel-programming-for-gpu-acceleration/)
+- [Why Standards-Based Parallel Programming Should be in Your HPC Toolbox (HPCWire)](https://www.hpcwire.com/2022/09/05/why-standards-based-parallel-programming-should-be-in-your-hpc-toolbox/)
+- [Leveraging Standards-Based Parallel Programming in HPC Applications (HPCWire)](https://www.hpcwire.com/2022/10/03/leveraging-standards-based-parallel-programming-in-hpc-applications/)
+- [New C++ Sender Library Enables Portable Asynchrony (HPCWire)](https://www.hpcwire.com/2022/12/05/new-c-sender-library-enables-portable-asynchrony/)
 
 ### CUDAで書き換える
 
