@@ -117,7 +117,7 @@ CUDAはNVIDIA GPU向けの開発環境および言語であり、C++言語を拡
 
 詳細は下記をご参照ください。
 
-- [GPUミニキャンプ（2023年10月13日、20日）](https://www.cc.u-tokyo.ac.jp/events/lectures/215/)
+- [GPUミニキャンプ（2024年2月7日、14日）](https://www.cc.u-tokyo.ac.jp/events/lectures/223/)
 - [お試しアカウント付き並列プログラミング講習会](https://www.cc.u-tokyo.ac.jp/events/lectures/)
 
 ## GPU移行相談会
