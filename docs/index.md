@@ -11,7 +11,7 @@ description: GPU移行に関するポータルサイト
 
 # 背景
 
-東京大学情報基盤センターと筑波大学計算科学研究センターが共同で運営する最先端共同HPC基盤施設（JCAHPC）のOakforest-PACSシステム（OFP）は2022年3月末で無事運用を終了いたしました。JCAHPCでは後継機種の導入を進めており、スーパーコンピュータシステム「OFP-II」の導入を決定しました（リンク先：https://www.cc.u-tokyo.ac.jp/supercomputer/ofp-II/service/introduction_OFP-II.php ）。OFP-IIはNVIDIA GH200 Grace Hopper Superchipを搭載した演算加速ノード群を中心としたシステム（一部汎用CPUのみのノードもあります）であり、2025年1月運用開始を予定しています。
+東京大学情報基盤センターと筑波大学計算科学研究センターが共同で運営する最先端共同HPC基盤施設（JCAHPC）のOakforest-PACSシステム（OFP）は2022年3月末で無事運用を終了いたしました。JCAHPCでは後継機種の導入を進めており、[スーパーコンピュータシステム「OFP-II」](https://www.cc.u-tokyo.ac.jp/supercomputer/ofp-II/service/introduction_OFP-II.php)の導入を決定しました。OFP-IIはNVIDIA GH200 Grace Hopper Superchipを搭載した演算加速ノード群を中心としたシステム（一部汎用CPUのみのノードもあります）であり、2025年1月運用開始を予定しています。
 
 本サイトでは、2025年1月のOFP-IIの利用開始に向け、皆様の既存コードをご自身でGPUへ移植するために、役立つ情報を集約しています。
 
