@@ -89,11 +89,15 @@ CUDAはNVIDIA GPU向けの開発環境および言語であり、C++言語を拡
 ## GPU移行例の紹介
 
 各種GPU化手法での実装例を追加していきます。
-コードおよび性能などの情報をまとめるので、どのGPU化手法を用いるかの参考にお使いください。
+
+[N体計算](https://github.com/ymiki-repo/nbody)に関しては、コードに加えて性能の情報もまとまっており、どのGPU化手法を用いるかの比較検討にお使いいただけます。
+
+[共役勾配法](https://github.com/kazuya-yamazaki/CG_on_GPU)に関しては、現時点では専らOpenACCでのコード例を掲載しています。
 
 | 実装例 | 元の言語 | OpenACC | OpenMP | 標準言語の並列処理 | CUDA |
 | :----: | :----: | :----: | :----: | :----: | :----: |
 | [N体計算](https://github.com/ymiki-repo/nbody) | C++ | OK | OK | OK | OK |
+| [共役勾配法](https://github.com/kazuya-yamazaki/CG_on_GPU) | C・FORTRAN | OK | - | - | - |
 
 # GPU移行実践
 
