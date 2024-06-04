@@ -42,6 +42,7 @@ GPU計算の概要、NVIDIA GPU への移植方法についての比較は、下
 - [GPUコンピューティングは難しいのか？](https://www.youtube.com/watch?v=pK-gllheNXE&t=22s)
 - [An Introduction To GPU Programming Models](https://youtu.be/GKXG7OFTLzc?t=461)
 - [A Deep Dive into the Latest HPC Software](https://www.nvidia.com/en-us/on-demand/session/gtcfall22-a41133/)
+- [NVIDIA Deep Learning Institute: An Even Easier Introduction to CUDA](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-AC-01+V1)
 
 ## GPUへの移植方法の特徴
 
