@@ -108,8 +108,8 @@ CUDAはNVIDIA GPU向けの開発環境および言語であり、C++言語を拡
 
 詳細は下記をご参照ください。
 
-- [GPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/188/#lecture-doc)
-- [OpenACCとMPIによるマルチGPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/167/#lecture-doc)
+- [GPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/226/#lecture-doc)
+- [OpenACCとMPIによるマルチGPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/228/#lecture-doc)
 - [お試しアカウント付き並列プログラミング講習会](https://www.cc.u-tokyo.ac.jp/events/lectures/)
 
 ## ミニキャンプ
@@ -124,7 +124,7 @@ CUDAはNVIDIA GPU向けの開発環境および言語であり、C++言語を拡
 
 詳細は下記をご参照ください。
 
-- [GPUミニキャンプ（2024年2月7日、14日）](https://www.cc.u-tokyo.ac.jp/events/lectures/223/)
+- [GPUミニキャンプ（2024年10月16日、23日）](https://www.cc.u-tokyo.ac.jp/events/lectures/233/)
 - [お試しアカウント付き並列プログラミング講習会](https://www.cc.u-tokyo.ac.jp/events/lectures/)
 
 ## GPU移行相談会
