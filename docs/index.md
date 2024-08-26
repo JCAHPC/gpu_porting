@@ -62,7 +62,7 @@ OpenACC指示文（ディレクティブ）を既存のCPUコードに挿入す�
 
 詳細は下記のセンター開催の講習会資料と録画を参照ください。
 
-- [GPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/188/#lecture-doc)
+- [GPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/226/#lecture-doc)
 
 ### 既存のCPUコードにOpenMP指示文（ディレクティブ）を挿入する
 
