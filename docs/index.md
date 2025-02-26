@@ -11,9 +11,9 @@ description: GPU移行に関するポータルサイト
 
 # 背景
 
-東京大学情報基盤センターと筑波大学計算科学研究センターが共同で運営する最先端共同HPC基盤施設（JCAHPC）のOakforest-PACSシステム（OFP）は2022年3月末で無事運用を終了いたしました。JCAHPCでは[後継機種の導入を決定](https://www.jcahpc.jp/pr/news-20240219.html)し、[次期スーパーコンピュータシステムの名称を “Miyabi”（みやび）に決定](https://www.jcahpc.jp/pr/news-20240401.html)しました。Miyabiシステムは、米国NVIDIA社による超高速CPU-GPU専用リンクNVLink-C2Cで接続したGH200 Grace-Hopper Superchipを搭載した計算ノード1,120ノード(Miyabi-G)と、米国Intel社によるXeon Max 9480を2基搭載した計算ノード190ノード(Miyabi-C)をInfiniBand NDR200で結合した、倍精度演算性能80.1 PFLOPSを有する超並列クラスタ型スーパーコンピュータであり、GH200を搭載した国内初の汎用大規模システムです。運用開始は2025年1月を予定しています。
+東京大学情報基盤センターと筑波大学計算科学研究センターが共同で運営する最先端共同HPC基盤施設（JCAHPC）のOakforest-PACSシステム（OFP）は2022年3月末で無事運用を終了いたしました。JCAHPCでは[後継機種の導入を決定](https://www.jcahpc.jp/pr/news-20240219.html)し、[次期スーパーコンピュータシステムの名称を “Miyabi”（みやび）に決定](https://www.jcahpc.jp/pr/news-20240401.html)しました。Miyabiシステムは、米国NVIDIA社による超高速CPU-GPU専用リンクNVLink-C2Cで接続したGH200 Grace-Hopper Superchipを搭載した計算ノード1,120ノード(Miyabi-G)と、米国Intel社によるXeon Max 9480を2基搭載した計算ノード190ノード(Miyabi-C)をInfiniBand NDR200で結合した、倍精度演算性能80.1 PFLOPSを有する超並列クラスタ型スーパーコンピュータであり、GH200を搭載した国内初の汎用大規模システムです。2025年1月より運用を開始いたしました。
 
-本サイトでは、2025年1月のMiyabiの利用開始に向け、皆様の既存コードをご自身でGPUへ移植するために、役立つ情報を集約しています。
+本サイトでは、Miyabiの利用開始に向け、皆様の既存コードをご自身でGPUへ移植するために、役立つ情報を集約しています。
 
 # GPU移行に関する情報
 
