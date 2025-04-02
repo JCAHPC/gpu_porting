@@ -32,8 +32,8 @@ OpenMP + MPIで並列化済みであれば、一般的には OpenACC + MPI へ�
 
 1. GPU対応ライブラリを用いる
 2. コンパイラの支援を利用してGPU移植する
-   - 既存のCPUコードにOpenACC指示文（ディレクティブ）を挿入する
-   - 既存のCPUコードにOpenMP指示文（ディレクティブ）を挿入する
+   - 既存のCPUコードに指示文（ディレクティブ）を挿入する
+     - OpenACCやOpenMPのtarget指示文といった選択肢があります
    - 標準言語の並列処理でGPUを利用する
 3. GPU専用言語（CUDA）で書き換える
 
@@ -56,7 +56,9 @@ GPU計算の概要、NVIDIA GPU への移植方法についての比較は、下
 - [cuRAND](https://docs.nvidia.com/cuda/curand/index.html)：乱数生成
 - [Thrust](https://docs.nvidia.com/cuda/thrust/index.html)：C++テンプレートライブラリ（STLベース）
 
-### 既存のCPUコードにOpenACC指示文（ディレクティブ）を挿入する
+### 既存のCPUコードに指示文（ディレクティブ）を挿入する
+
+#### OpenACC
 
 OpenACC指示文（ディレクティブ）を既存のCPUコードに挿入することで、GPU向けコードをコンパイラが作成します。OpenACCは並列計算を容易に実現するもので、GPUを主な対象とし、C言語とFortranに対応しています。指示文で、ループ部分のGPU化、CPUとGPU間のデータ通信の挿入などを行うことができます。また、CUDAでは記述が複雑なリダクション計算もOpenACCでは簡単に記述できます。既存CPUコードに指示文を挿入するため、CPU向けのコードと共通化することが可能です。
 
@@ -64,9 +66,19 @@ OpenACC指示文（ディレクティブ）を既存のCPUコードに挿入す�
 
 - [GPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/226/#lecture-doc)
 
-### 既存のCPUコードにOpenMP指示文（ディレクティブ）を挿入する
+#### OpenMPのtarget指示文
 
-OpenMP指示文（ディレクティブ）は、主に共有メモリ型マルチプロセッサの並列プログラミングに利用されます。OpenMP 4.0から、並列処理をGPUなどアクセラレータへオフロードする機能が提供されています（GPU Offloading）。OpenACCと同様なことがOpenMPでも実現できるようになりました。しかし、現時点では、NVIDIA GPUでは、OpenMP GPU Offloading よりもOpenACCの方が高い性能がでる傾向にあります。
+OpenMP指示文（ディレクティブ）は、主に共有メモリ型マルチプロセッサの並列プログラミングに利用されます。OpenMP 4.0からtarget指示文が導入され、並列処理をGPUなどアクセラレータへオフロードする機能が提供されています（GPU Offloading）。OpenACCと同様なことがOpenMPでも実現できるようになりました。しかし、現時点では、NVIDIA GPUでは、OpenMP GPU Offloading よりもOpenACCの方が高い性能がでる傾向にあります。
+
+#### GPU向け指示文統合マクロSolomon
+
+OpenACCとOpenMPのtarget指示文には機能・ドキュメントの豊富さおよびサポートされているGPUベンダーという観点でトレードオフがあります。
+Solomon（Simple Off-LOading Macros Orchestrating multiple Notations）は、両指示文のインターフェースを統合したマクロ群であり、OpenACCとOpenMPのtarget指示文両方に対応したコードを簡単に実装できるようになります。
+
+詳細は下記の参考資料を参照ください。
+
+- [Miki & Hanawa (2024), IEEE Access, 12, 181644](https://doi.org/10.1109/ACCESS.2024.3509380)
+- [Solomon: Simple Off-LOading Macros Orchestrating multiple Notations (GitHub)](https://github.com/ymiki-repo/solomon)
 
 ### 標準言語の並列処理でGPUを利用する
 
@@ -95,10 +107,10 @@ CUDAはNVIDIA GPU向けの開発環境および言語であり、C++言語を拡
 
 [共役勾配法](https://github.com/kazuya-yamazaki/CG_on_GPU)に関しては、現時点では専らOpenACCでのコード例を掲載しています。
 
-| 実装例 | 元の言語 | OpenACC | OpenMP | 標準言語の並列処理 | CUDA |
-| :----: | :----: | :----: | :----: | :----: | :----: |
-| [N体計算](https://github.com/ymiki-repo/nbody) | C++ | OK | OK | OK | OK |
-| [共役勾配法](https://github.com/kazuya-yamazaki/CG_on_GPU) | C・FORTRAN | OK | - | - | - |
+| 実装例 | 元の言語 | OpenACC | OpenMP | 標準言語の並列処理 | CUDA | Solomon |
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| [N体計算](https://github.com/ymiki-repo/nbody) | C++ | OK | OK | OK | OK | OK |
+| [共役勾配法](https://github.com/kazuya-yamazaki/CG_on_GPU) | C・FORTRAN | OK | - | - | - | - |
 
 # GPU移行実践
 
