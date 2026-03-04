@@ -120,8 +120,8 @@ CUDAはNVIDIA GPU向けの開発環境および言語であり、C++言語を拡
 
 詳細は下記をご参照ください。
 
-- [GPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/226/#lecture-doc)
-- [OpenACCとMPIによるマルチGPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/228/#lecture-doc)
+- [GPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/251/#lecture-doc)
+- [指示文とMPIによるマルチGPUプログラミング入門（過去開催時の資料・録画映像）](https://www.cc.u-tokyo.ac.jp/events/lectures/262/#lecture-doc)
 - [お試しアカウント付き並列プログラミング講習会](https://www.cc.u-tokyo.ac.jp/events/lectures/)
 
 ## ミニキャンプ
@@ -134,14 +134,13 @@ CUDAはNVIDIA GPU向けの開発環境および言語であり、C++言語を拡
 - FMOプログラムABINIT-MPのGPU対応
 - ⼤規模並列有限要素法構造解析ソフトウェアFrontISTRのGPU化
 
-詳細は下記をご参照ください。
+今後の開催予定等の詳細は下記をご参照ください。
 
-- [JCAHPC Open Hackathon（2025年1月31日、2月3日、2月10日、2月17日）](https://www.cc.u-tokyo.ac.jp/events/lectures/239/)
 - [お試しアカウント付き並列プログラミング講習会](https://www.cc.u-tokyo.ac.jp/events/lectures/)
 
 ## GPU移行相談会
 
-東京大学情報基盤センターでは、Miyabiの利用開始に向け、GPU移行に関する様々な疑問をGPU計算に実際に取り組んでいる研究者や技術者（チューター）と直接相談できる相談会を定期的に開催します。
+東京大学情報基盤センターでは、GPU移行に関する様々な疑問をGPU計算に実際に取り組んでいる研究者や技術者（チューター）と直接相談できる相談会を定期的に開催します。
 
 - 既存のCPUコードをGPU化する適切な方法がわからない。
 - GPU向けライブラリを紹介してほしい。
